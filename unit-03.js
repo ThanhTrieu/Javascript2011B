@@ -40,3 +40,31 @@ console.log(len);
 
 let upperString = mess2.toUpperCase();
 console.log(mess2, upperString);
+
+let myString = 'dang hoc js';
+//let pos = myString.indexOf('js');
+let pos = myString.lastIndexOf('js');
+console.log(pos);
+// tach chuoi
+let newMyStr = myString.slice(2,-8);
+console.log(newMyStr);
+let newMyStr2 = myString.substring(2,-1);
+console.log(newMyStr2);
+let newMyStr3 = myString.substr(2,8);
+console.log(newMyStr3);
+let newMyStr4 = myString.replace('js', 'reactjs');
+console.log(newMyStr4, myString);
+
+let str1 = 'hello';
+let str2 = 'good bye';
+let str3 = str1 + str2;
+let str4 = str1.concat(str2);
+console.log(str1, str2, str3, str4);
+
+function test(a, ...b) {
+  //return a + b;
+  console.log(a, b);
+}
+test(1,2,3,4,5,6);
+//let s123 = test(1,2,3,4,5,6);
+//console.log(s123);
