@@ -127,4 +127,10 @@ let condition2 = (val, current) => val + current;
 let kq = randomNumber2.filter(condition)
                       .reduce(condition2);
 console.log(kq);
-// 
+
+let 
+
+= [1,2,3,4,5,6,7,8,9];
+//Spread Operator
+let others = [100,200, ...params];
+console.log(others, params);
